@@ -11,7 +11,7 @@ function App() {
           <h1 className="text-3xl font-bold underline">
       Hello world!
     </h1>
-    <p className='text-3xl font-bold underline-offset-1'>asdfdfasfadfdsa</p>
+    <p className='text-3xl font-bold underline-offset-1'>hello met hi bennet ku je shkemb</p>
     </>
   )
 }
