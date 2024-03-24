@@ -31,3 +31,4 @@
 /Users/metshehu/Documents/workingprojects/Pronaideale.al/api/obj/Debug/net8.0/api.pdb
 /Users/metshehu/Documents/workingprojects/Pronaideale.al/api/obj/Debug/net8.0/api.genruntimeconfig.cache
 /Users/metshehu/Documents/workingprojects/Pronaideale.al/api/obj/Debug/net8.0/ref/api.dll
+/Users/metshehu/Documents/workingprojects/Pronaideale.al/api/obj/Debug/net8.0/api.sourcelink.json
