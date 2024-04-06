@@ -19,6 +19,7 @@ namespace api.Models
         [Column(TypeName ="decimal(18,2 )")]
         public decimal Monthly { get; set; }
         [Column(TypeName ="decimal(30,5 )")]
+        
         public decimal Size { get; set; }
         public int? PropertyId { get; set; }
         public Users? Users { get; set; }

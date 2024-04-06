@@ -15,6 +15,9 @@ namespace api.Data
         
     }
     public DbSet<Users> Users{get; set;}
-    public DbSet<Propertys> Propertys{get; set;}    
+    public DbSet<Propertys> Propertys{get; set;}
+
+    public DbSet<test> test{get; set;}
+    
     }
 }

@@ -2,18 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
-namespace api.Models
+namespace api.Dtos.Users
 {
-    public class Users
+    public class UsersDto
     {
+        
         public int id { get; set; }
         public string Name { get; set; }
         public string Lastname { get; set; }
         public string Adress{ get; set; }= string.Empty;
         public string Phone { get; set; }=string.Empty;
-
-        public List<Propertys> Propertys { get; set; } = new List<Propertys>();
     }
 }
