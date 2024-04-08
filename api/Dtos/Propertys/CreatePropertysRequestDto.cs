@@ -7,9 +7,10 @@ namespace api.Dtos.Propertys
 {
     public class CreatePropertysRequestDto
     {
-        public string Name { get; set; }
-        public string Street { get; set; }
-        public string City { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string Street { get; set; }=string.Empty;
+        public string City { get; set; } = string.Empty;
+
     }
     }
 

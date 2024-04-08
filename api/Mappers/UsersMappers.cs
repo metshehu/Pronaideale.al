@@ -15,6 +15,8 @@ namespace api.Mappers
             id=userModel.id,
             Name=userModel.Name,
             Lastname=userModel.Lastname,
+            Adress=userModel.Adress,
+            Propertys=userModel.Propertys.Select(p=> p.ToPropertyDto()).ToList()
          };
 
         }
