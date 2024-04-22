@@ -1,11 +1,13 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace api.Models
 {
+    [Table("Propertys")]
     public class Propertys
     {
         public int id { get; set; }
@@ -20,7 +22,10 @@ namespace api.Models
         public decimal Monthly { get; set; }
         [Column(TypeName ="decimal(30,5 )")]
         public decimal Size { get; set; }
-        public int? UsersId { get; set; }
-        public Users? Users { get; set; }
-    }
+        public string? AppUsersId { get; set; }
+        public AppUser? AppUsers { get; set; }
+
+        public List<AgendsPropertys>? Agends{ get; set; }
+
+          }
 }

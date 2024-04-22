@@ -19,7 +19,7 @@ function App() {
     </h1>
     <p className='text-3xl font-bold underline-offset-1'>hello met hi bennet ku je shkemb</p>
     <button onClick={oClick}>CLICKME</button>
-    {users.length >0 ?users.map(x=><p>{x.name}</p>):<></>}
+    {users.length >0 ?users.map(x=><><p>{x.name} this is my fritnsn ame</p><p>{x.lastname} -- this is my last name</p></>):<></>}
     </>
   )
 }
