@@ -5538,24 +5538,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/metshehu/.nuget/packages/": {}
+    "C:\\Users\\kastriot\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/metshehu/Documents/workingprojects/Pronaideale.al/api/api.csproj",
+      "projectUniqueName": "C:\\Users\\kastriot\\Desktop\\vn\\GitTest\\gi\\New folder\\Pronaideale.al\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "/Users/metshehu/Documents/workingprojects/Pronaideale.al/api/api.csproj",
-      "packagesPath": "/Users/metshehu/.nuget/packages/",
-      "outputPath": "/Users/metshehu/Documents/workingprojects/Pronaideale.al/api/obj/",
+      "projectPath": "C:\\Users\\kastriot\\Desktop\\vn\\GitTest\\gi\\New folder\\Pronaideale.al\\api\\api.csproj",
+      "packagesPath": "C:\\Users\\kastriot\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kastriot\\Desktop\\vn\\GitTest\\gi\\New folder\\Pronaideale.al\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/metshehu/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\kastriot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5647,7 +5649,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
