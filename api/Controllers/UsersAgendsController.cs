@@ -42,7 +42,6 @@ namespace api.Controllers
             var user = await _usermanger.FindByNameAsync(username);
             var agend= await _agendsRepository.GetByIdAsync(id);
             if(agend == null){return NotFound();}
-
             var useragends= await _userAgendsRepository.GetUserAgends(user);
             if(useragends.Any(x=>x.id == id)) return BadRequest("this agends cant be on the same user more then 2 times");
             var userAgendsModel = new UsersAgends {
